@@ -1,6 +1,6 @@
 # Firebase Clicker Counter  
 
-Based on [Firebase realtime database quickstart](https://github.com/firebase/quickstart-js/tree/master/database). See its readme below.
+Based on [Firebase realtime database quickstart](https://github.com/firebase/quickstart-js/tree/master/database). 
 
 Dev
 1. Create your project on the [Firebase Console](https://console.firebase.google.com).
