@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  /* font-family: sans-serif; */
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+s
+#clicker-button {
+  font-size: 1.5em;
+  border: 0;
+  text-transform: uppercase;
+  color: white;
+  background-color: #772aa3;
+}
+
+
+#clicker-button:hover {
+  cursor: pointer;
+}
