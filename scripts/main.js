@@ -7,8 +7,8 @@ var body = document.getElementById("body");
 var loader = document.getElementById('loader');
 
 // Updates number of clicks on clicker button
-function updateClickerCount(nbStart) {
-  clickerCounterDisplay.innerText = nbStart;
+function updateClickerCount(num) {
+  clickerCounterDisplay.innerText = num;
 }
 
 // Bindings on load.
