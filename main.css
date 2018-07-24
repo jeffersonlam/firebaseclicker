@@ -1,6 +1,29 @@
 html, body {
   height: 100%;
-  /* font-family: sans-serif; */
+  font-family: sans-serif;
+}
+
+.loading .wrapper {
+  display: none;
+}
+
+.loading #loader-wrapper {
+  height: 100%;
+  color: #888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loader-wrapper {
+  display: none;
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  background-color: #66228d;
+  animation: rotate .5s ease-in-out infinite;
 }
 
 .wrapper {
@@ -33,4 +56,10 @@ html, body {
 
 #clicker-counter {
   font-weight: bold;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(90deg);
+  }
 }
