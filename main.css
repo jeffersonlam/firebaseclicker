@@ -49,17 +49,27 @@ html, body {
   cursor: pointer;
 }
 
-#clicker-button:active {
-  border-bottom: 4px solid #66228d;
-  margin-top: 2px;
-}
-
 #clicker-counter {
   font-weight: bold;
+}
+
+.press {
+  animation: press .05s forwards;
 }
 
 @keyframes rotate {
   100% {
     transform: rotate(90deg);
+  }
+}
+
+@keyframes press {
+  0%, 99% {
+    margin-top: 3px;
+    border-bottom-width: 3px;
+  }
+  100% {
+    margin-top: 0;
+    border-bottom-width: 6px;
   }
 }
