@@ -1,6 +1,6 @@
 # Firebase Clicker Counter
 
-Based on [Firebase realtime database quickstart](https://github.com/firebase/quickstart-js/tree/master/database).
+Based on [realtime database quickstart](https://github.com/firebase/quickstart-js/tree/master/database) and [delete unused accounts cron](https://github.com/firebase/functions-samples/tree/master/delete-unused-accounts-cron)
 
 ## Dev
 1. Create your project on the [Firebase Console](https://console.firebase.google.com).
