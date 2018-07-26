@@ -2,7 +2,7 @@
 
 Based on [Firebase realtime database quickstart](https://github.com/firebase/quickstart-js/tree/master/database).
 
-Dev
+## Dev
 1. Create your project on the [Firebase Console](https://console.firebase.google.com).
 1. Enable the **anonymous** sign-in provider in the **Authentication > SIGN-IN METHOD** tab.
 1. You must have the Firebase CLI installed. If you don't have it install it with `npm install -g firebase-tools` and then configure it with `firebase login`.
@@ -13,3 +13,10 @@ Dev
 1. Set up a cron-job to automatically hit the above url every 24 hours. I'm using https://cron-job.org/en/
 1. ???
 1. Profit
+
+## What I learned
+- How to make simple queries to a realtime firebase DB and make live updates
+- How to deploy a firebase app
+- How to use firebase anonymous authentication so that the DB isn't open to the public
+- How to use cloud functions to make DB queries
+- How to set up a cron job
