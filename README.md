@@ -20,4 +20,5 @@ Based on [Firebase realtime database quickstart](https://github.com/firebase/qui
 1. How to deploy a firebase app
 1. How to set a custom subdomain for a firebase app
 1. How to use cloud functions to make DB queries
+1. How to secure a cloud function with a key
 1. How to set up a cron job
