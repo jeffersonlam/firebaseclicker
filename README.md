@@ -9,7 +9,7 @@ Based on [Firebase realtime database quickstart](https://github.com/firebase/qui
 1. On the command line run `firebase use --add` and select the Firebase project you have created.
 1. On the command line run `firebase serve` using the Firebase CLI tool to launch a local server and go to `localhost:5000`
 1. Deploy via `firebase deploy`
-1. Reset DB at https://us-central1-<PROJECT NAME>.cloudfunctions.net/reset?key=<CRON KEY>
+1. Reset DB at https://us-central1-PROJECT-NAME.cloudfunctions.net/reset?key=CRON-KEY
 1. Set up a cron-job to automatically hit the above url every 24 hours. I'm using https://cron-job.org/en/
 1. ???
 1. Profit
