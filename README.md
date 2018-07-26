@@ -14,9 +14,10 @@ Based on [Firebase realtime database quickstart](https://github.com/firebase/qui
 1. ???
 1. Profit
 
-## What I learned
-- How to make simple queries to a realtime firebase DB and make live updates
-- How to deploy a firebase app
-- How to use firebase anonymous authentication so that the DB isn't open to the public
-- How to use cloud functions to make DB queries
-- How to set up a cron job
+### What I learned
+1. How to make simple queries to a realtime firebase DB and make live updates
+1. How to use firebase anonymous authentication so that the DB isn't open to the public
+1. How to deploy a firebase app
+1. How to set a custom subdomain for a firebase app
+1. How to use cloud functions to make DB queries
+1. How to set up a cron job
