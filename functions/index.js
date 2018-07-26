@@ -3,9 +3,7 @@ const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 admin.initializeApp();
 const secureCompare = require("secure-compare");
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
+
 exports.reset = functions.https.onRequest((req, res) => {
   const key = req.query.key;
 
